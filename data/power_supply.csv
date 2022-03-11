@@ -1,0 +1,5 @@
+name,manufacturer,price,power,power_unit,form_factor,rating
+V650,Cooler Master,1000,650,W,Mini-ITX,Gold
+TX850M,Corsair,1337,850,W,ATX,Gold
+Proton BDF-500S,Chieftec,600,500,W,ATX,Bronze
+AX1600i,Corsair,5600,1600,W,ATX,Titanium

@@ -1,0 +1,9 @@
+name,manufacturer,generation,series,socket,price,cores,threads,base_clock,boost_clock,clock_unit,cache,power_usage,overclockable,score,score_type
+12400F,Intel,Alder Lake,Core i5,LGA 1700,2050,6,12,2.5,4.4,GHz,18,120,0,19719,CPU Mark
+12900KF,Intel,Alder Lake,Core i9,LGA 1700,6600,16,24,3.2,5.2,GHz,30,240,1,40978,CPU Mark
+10100F,Intel,Comet Lake,Core i3,LGA 1200,890,4,8,3.6,4.3,GHz,6,65,0,8830,CPU Mark
+5600G,AMD,Ryzen 5000,Ryzen 5,AM4,2600,6,12,3.9,4.4,GHz,16,65,1,19847,CPU Mark
+G6405,Intel,Comet Lake,Pentium Gold,LGA 1200,600,2,4,4.1,NULL,GHz,4,60,0,4281,CPU Mark
+3600XT,AMD,Ryzen 3000,Ryzen 5,AM4,NULL,6,12,3.8,4.5,GHz,32,95,1,18795,CPU Mark
+4790K,Intel,Devil's Canyon,Core i7,LGA 1150,NULL,4,8,4.0,4.4,GHz,8,88,1,8059,CPU Mark
+8350,AMD,FX,8-Core Black Edition,AM3+,NULL,8,8,4.0,4.2,GHz,8,125,1,5967,CPU Mark

@@ -1,0 +1,12 @@
+name,cpu_id,ram_id,chassi_id,motherboard_id,gpu_id,power_supply_id,cooler_id,storage_id
+beast1,1,1,1,1,1,1,1,1
+beast2,2,3,2,3,2,3,2,1
+rgbcraze,1,1,2,3,2,1,1,2
+legend,4,4,4,3,2,1,1,3
+qcklypc,3,3,3,3,3,3,3,2
+machine,1,1,1,NULL,2,2,2,1
+wipcomp,5,3,2,4,1,NULL,NULL,3
+exeoi,3,2,1,2,3,2,1,NULL
+as98we,5,4,3,2,1,2,3,1
+lkkd83,1,2,3,4,5,4,3,3
+lkkd84,2,NULL,NULL,NULL,NULL,3,NULL,4

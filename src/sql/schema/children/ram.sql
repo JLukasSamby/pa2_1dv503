@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS ram (
+ram_id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(50) NOT NULL,
+manufacturer VARCHAR(50) NOT NULL,
+price INT NULL,
+capacity INT NOT NULL,
+capacity_unit VARCHAR(50) NOT NULL,
+type VARCHAR(50) NOT NULL,
+speed int NOT NULL,
+speed_unit VARCHAR(50) NOT NULL,
+latency VARCHAR(50) NOT NULL,
+stick_count INT NOT NULL,
+height INT NOT NULL,
+PRIMARY KEY (ram_id)
+);

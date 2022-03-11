@@ -1,0 +1,6 @@
+name,manufacturer,price,capacity,capacity_unit,type,speed,speed_unit,latency,stick_count,height
+FURY Beast,Kingston,700,16,GB,DDR4,3200,MHz,CL17,2,34
+Vengeance LPX Black,Corsair,780,16,GB,DDR4,3200,MHz,CL16,2,33
+ ,Crucial,3000,32,GB,DDR5,4800,MHz,CL40,1,32
+Dominator Platinum RGB Black,Corsair,3700,32,GB,DDR5,5200,MHz,CL40,2,45
+Vengeance,Corsair,NULL,16,GB,DDR3,1600,MHz,CL10,2,33

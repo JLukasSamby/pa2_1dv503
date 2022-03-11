@@ -1,0 +1,5 @@
+name,manufacturer,price,capacity,capacity_unit,read_speed,write_speed,type,interface
+SkyHawk,Seagate,1000,4,TB,190,190,HDD,SATA
+A400,Kingston,1000,960,GB,500,450,SSD,SATA
+KC2500,Kingston,2200,2,TB,3500,2900,SSD,M2
+BLACK SN770,WD,1400,500,GB,5000,4000,SSD,M2

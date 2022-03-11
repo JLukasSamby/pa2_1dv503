@@ -1,0 +1,7 @@
+name,manufacturer,price,tdp,height,RAM_clearance,radiator_size
+MasterAir MA612 Stealth,Cooler Master,650,65,16,200,NULL
+NH-D15,Noctua,1000,150,17,35,NULL
+Air Cooling TS13A,Intel,300,55,10,200,NULL
+Kraken X53,NZXT,1300,150,NULL,NULL,240
+iCUE H60i RGB PRO XT,Corsair,1000,100,NULL,NULL,120
+Kraken Z73,NZXT,3600,300,NULL,NULL,360

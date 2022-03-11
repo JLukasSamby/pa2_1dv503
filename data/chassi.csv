@@ -1,0 +1,6 @@
+name,manufacturer,price,form_factor,volume,height,width,depth,cooler_height,radiator_max,gpu_max
+H510 Flow,NZXT,1100,ATX,41,46,21,43,165,280,360
+Obsidian 1000D Super Tower,Corsair,6000,E-ATX,150,70,31,69,180,480,400
+Meshify 2 Compact,Fractal Design,1600,ATX,42,48,21,42,170,360,360
+MasterBox NR400,Cooler Master,700,mATX,35,41,21,41,166,280,346
+MasterBox NR200P,Cooler Master,800,Mini-ITX,21,29,38,19,155,280,330

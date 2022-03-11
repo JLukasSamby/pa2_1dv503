@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS computer (
+name VARCHAR(255) NOT NULL,
+cpu_id INT NULL,
+ram_id INT NULL,
+chassi_id INT NULL,
+motherboard_id INT NULL,
+gpu_id INT NULL,
+power_supply_id INT NULL,
+cooler_id INT NULL,
+storage_id INT NULL,
+PRIMARY KEY (name),
+FOREIGN KEY (cpu_id) REFERENCES cpu(cpu_id),
+FOREIGN KEY (ram_id) REFERENCES ram(ram_id),
+FOREIGN KEY (chassi_id) REFERENCES chassi(chassi_id),
+FOREIGN KEY (motherboard_id) REFERENCES motherboard(motherboard_id),
+FOREIGN KEY (gpu_id) REFERENCES gpu(gpu_id),
+FOREIGN KEY (power_supply_id) REFERENCES power_supply(power_supply_id),
+FOREIGN KEY (cooler_id) REFERENCES cooler(cooler_id),
+FOREIGN KEY (storage_id) REFERENCES storage(storage_id)
+);

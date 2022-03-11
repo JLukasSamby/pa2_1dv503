@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS motherboard (
+motherboard_id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(50) NOT NULL,
+manufacturer VARCHAR(50) NOT NULL,
+price INT NULL,
+chipset VARCHAR(50) NOT NULL,
+socket VARCHAR(50) NOT NULL,
+form_factor VARCHAR(50) NOT NULL,
+RAM_slots INT NOT NULL,
+RAM_type VARCHAR(50) NOT NULL,
+M2_slots INT NOT NULL,
+SATA_slots INT NOT NULL,
+PRIMARY KEY (motherboard_id)
+);

@@ -1,0 +1,6 @@
+name,manufacturer,series,generation,price,vram,vram_unit,vram_type,interface,clock,power_usage,length,score,score_type
+3050 Twin Edge OC,Zotac,GeForce RTX,Nvidia 3000,4200,8,GB,GDDR6,PCI Express 4.0,1807,130,22,12670,GPU Mark
+6600 SWFT 210,XFX,Radeon RX,AMD 6000,5600,8,GB,GDDR6,PCI Express 4.0,2491,150,24,15786,GPU Mark
+3080 Ti AMP HOLO,Zotac,GeForce RTX,Nvidia 3000,21500,12,GB,GDDR6X,PCI Express 4.0,1710,350,32,26573,GPU Mark
+3090 ROG Strix OC,Asus,GeForce RTX,Nvidia 3000,26500,24,GB,GDDR6X,PCI Express 4.0,1850,750,31,26314,GPU Mark
+8000,PNY,Quadro RTX,Nvidia Quadro 8000,85000,48,GB,GDDR6X,PCI Express 4.0,1400,295,27,19126,GPU Mark
