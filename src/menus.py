@@ -187,7 +187,7 @@ def get_part_name_string(cnx, part, part_id):
 
 
 def computer_list_menu(cnx, computers):
-    return SelectionMenu(computers, title="List Menu", subtitle="Select a computer to edit...")
+    return SelectionMenu([c[0] for c in computers], title="List Menu", subtitle="Select a computer to edit...")
 
 
 def computer_spec_list_menu(cnx, computers):

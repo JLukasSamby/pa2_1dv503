@@ -19,16 +19,5 @@ FROM
             WHEN x.Price < 4000 AND x.Price >= 3000 THEN "Poor (3000, 4000]"
             WHEN x.Price < 3000 THEN "Destitute [0, 3000)"
         END AS price_tier
-    FROM (
-        SELECT (cpu.price + g.price + r.price + s.price + ch.price + p.price + m.price + clr.price) AS Price
-        FROM computer c
-            LEFT JOIN cpu ON c.cpu_id = cpu.cpu_id
-            LEFT JOIN gpu g ON c.gpu_id = g.gpu_id
-            LEFT JOIN ram r ON c.ram_id = r.ram_id
-            LEFT JOIN storage s ON c.storage_id = s.storage_id
-            LEFT JOIN chassi ch ON c.chassi_id = ch.chassi_id
-            LEFT JOIN power_supply p ON c.power_supply_id = p.power_supply_id
-            LEFT JOIN motherboard m ON c.motherboard_id = m.motherboard_id
-            LEFT JOIN cooler clr ON c.cooler_id = clr.cooler_id
-        ) AS x ) AS y
+    FROM SpecSheet x) AS y
 GROUP BY price_tier

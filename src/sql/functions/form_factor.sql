@@ -1,3 +1,4 @@
+DROP FUNCTION IF EXISTS FormFactorLevel;
 CREATE FUNCTION FormFactorLevel(
     form_factor VARCHAR(50)
 )

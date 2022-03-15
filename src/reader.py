@@ -43,17 +43,17 @@ def read_computer_examples():
 
 
 def read_name_query(part):
-    with open(f"src/sql/queries/computer/name/{part}.sql") as f:
+    with open(f"src/sql/queries/name/{part}.sql") as f:
         return f.read()
 
 
 def read_specsheet():
-    with open("src/sql/queries/computer/specs.sql") as f:
+    with open("src/sql/queries/specs.sql") as f:
         return f.read()
 
 
 def read_compatibility_query(part):
-    with open(f"src/sql/queries/computer/compatibility/{part}.sql") as f:
+    with open(f"src/sql/queries/compatibility/{part}.sql") as f:
         return f.read()
 
 
@@ -68,5 +68,5 @@ def read_functions():
 
 
 def read_analytics(analytics_factor):
-    with open(f"src/sql/queries/computer/analytics/{analytics_factor}.sql") as f:
+    with open(f"src/sql/queries/analytics/{analytics_factor}.sql") as f:
         return f.read()

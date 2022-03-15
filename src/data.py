@@ -1,16 +1,37 @@
 from mysql.connector import Error, errorcode
 from reader import read_schemas, read_data, read_computer_examples
-from queries import gen_insert_queries, gen_insert_query
+from queries import gen_insert_queries, gen_insert_query, get_create_computer, get_functions, get_specsheet
+
+
+def create_computer(cnx, computer_name):
+    with cnx.cursor() as cursor:
+        cursor.execute(get_create_computer(computer_name))
+
+
+def create_computer_examples(cnx):
+    data = read_computer_examples()
+    data_dict = dict()
+    for d in data[1:]:
+        s = ""
+        for e in d[1:]:
+            s += f"{e}, "
+        data_dict[d[0]] = s[:-2]
+    with cnx.cursor() as cursor:
+        for key, val in data_dict.items():
+            cursor.execute(get_create_computer(key, data_string=val))
 
 
 # Main routine for creating database and its entries
 def init_database(cnx, dbname):
-    with cnx.cursor() as cursor:
-        cursor.execute(f"DROP DATABASE IF EXISTS {dbname}")
     if not use_database(cnx, dbname):
         create_database(cnx, dbname)
         use_database(cnx, dbname)
         create_tables(cnx)
+        with cnx.cursor() as cursor:
+            for func in get_functions():
+                cursor.execute(func, multi=True)
+            cursor.execute(get_specsheet())
+        create_computer_examples(cnx)
 
 
 # Initialzing the database if it does not exist
